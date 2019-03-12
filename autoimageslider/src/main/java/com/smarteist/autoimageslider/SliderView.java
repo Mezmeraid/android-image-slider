@@ -30,9 +30,9 @@ public abstract class SliderView {
 
     abstract public View getView();
 
-    abstract void bindViewData(View v, ImageView autoSliderImage);
+    abstract public void bindViewData(View v, ImageView autoSliderImage);
 
-    SliderView(Context context) {
+    public SliderView(Context context) {
         this.context = context;
     }
 
